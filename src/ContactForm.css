@@ -161,6 +161,38 @@
   background: #1558b0;
 }
 
+.submit-btn:disabled {
+  background: #7aa7e8;
+  cursor: not-allowed;
+}
+
+.optional {
+  font-weight: 400;
+  color: #888;
+}
+
+.honeypot {
+  display: none;
+}
+
+.form-status {
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form-status.success {
+  background: #e6f4ea;
+  color: #137333;
+}
+
+.form-status.error {
+  background: #fce8e6;
+  color: #c5221f;
+}
+
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
